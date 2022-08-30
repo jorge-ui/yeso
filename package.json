@@ -8,9 +8,10 @@
   "author": "",
   "scripts": {
     "build": "parcel build index.html",
+    "build:prod": "parcel build --public-url=/yeso index.html",
     "dev": "parcel index.html --open",
     "deploy": "node deploy.js",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:prod",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
