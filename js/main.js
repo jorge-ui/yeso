@@ -1,8 +1,8 @@
 import { format, intervalToDuration } from "date-fns";
 
 (() => {
-  const startDate = new Date('2022-08-24t13:30');
-  const endDate = new Date('2022-09-12t13:30');
+  const startDate = new Date('2022-08-24T13:30');
+  const endDate = new Date('2022-09-12T13:30');
 
   const fullRangeDuration = intervalToDuration({ start: startDate, end: endDate})
 
